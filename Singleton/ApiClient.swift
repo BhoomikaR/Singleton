@@ -45,11 +45,10 @@ class LoginViewController: UIViewController {
 //Feed Module
 struct FeedItem {}
 
-class FeedViewController: UIViewController{
+class FeedService {
     var loadFeed: ((([FeedItem]) -> Void)-> Void)?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+     func load() {
         loadFeed? { loadedItems in
             // update UI
             
