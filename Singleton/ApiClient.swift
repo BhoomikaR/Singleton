@@ -10,7 +10,7 @@ import UIKit
 struct LoggedInUser {}
 
 //singleton class - ensure must init single isntance and has only one access point
-final class ApiClient {
+class ApiClient {
     static let instance = ApiClient()
     private init() {}
     
@@ -23,11 +23,19 @@ final class ApiClient {
 //singleton - with lower 's' convience constuctor - only get
 /*URLSession.shared*/
 
+//unit test
+class MockApiClient: ApiClient{
+    
+}
+
 let client = ApiClient.instance
 
 class LoginViewController: UIViewController {
+    //properties injection
+    var api = ApiClient.instance
+    
     func didTapLoginButton() {
-        ApiClient.instance.login() { user in
+        api.login() { user in
             // show next screen
         }
     }
