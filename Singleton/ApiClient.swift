@@ -9,13 +9,9 @@ import UIKit
 
 //singleton class - ensure must init single isntance and has only one access point
 class ApiClient {
-    private static let instance = ApiClient()
-    
-    static func getInstance() -> ApiClient{
-        return instance
-    }
+    static let instance = ApiClient()
     private init() {}
 }
 
-let client = ApiClient.getInstance()
+let client = ApiClient.instance
 
