@@ -13,6 +13,7 @@
 		C76ADA852B0540F200594F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76ADA832B0540F200594F33 /* Main.storyboard */; };
 		C76ADA872B0540F300594F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76ADA862B0540F300594F33 /* Assets.xcassets */; };
 		C76ADA8A2B0540F300594F33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76ADA882B0540F300594F33 /* LaunchScreen.storyboard */; };
+		C76ADA922B05413700594F33 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76ADA912B05413700594F33 /* ApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C76ADA862B0540F300594F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C76ADA892B0540F300594F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C76ADA8B2B0540F300594F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76ADA912B05413700594F33 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C76ADA7D2B0540F200594F33 /* AppDelegate.swift */,
 				C76ADA7F2B0540F200594F33 /* SceneDelegate.swift */,
 				C76ADA812B0540F200594F33 /* ViewController.swift */,
+				C76ADA912B05413700594F33 /* ApiClient.swift */,
 				C76ADA832B0540F200594F33 /* Main.storyboard */,
 				C76ADA862B0540F300594F33 /* Assets.xcassets */,
 				C76ADA882B0540F300594F33 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C76ADA822B0540F200594F33 /* ViewController.swift in Sources */,
 				C76ADA7E2B0540F200594F33 /* AppDelegate.swift in Sources */,
 				C76ADA802B0540F200594F33 /* SceneDelegate.swift in Sources */,
+				C76ADA922B05413700594F33 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
